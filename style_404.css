@@ -1,5 +1,43 @@
+html, body 
+{
+	height: 100%;
+}
 body
 {
-background-image: url(img/404_1.png);
-background-size: cover;	 
+background-position: bottom right;
+    background-image: url(img/404_2.png);
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    background-color: #f2ead7;
+}
+.message
+{
+	  display: block;
+}
+.message_mobile
+	{
+		display: none;
+	}
+
+@media screen and (max-width: 960px) {
+   body
+	{
+  	background-color: #f2ead7;
+    background-image: url(img/404_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: bottom right;
+	}
+	.message
+{
+	 display: none;
+}
+	.message_mobile
+	{
+		display: block;
+		margin-top: 90%;
+		margin-right: 60%;				
+		
+	}
 }

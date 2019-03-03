@@ -1,4 +1,7 @@
-
+body
+{
+    margin: 0;
+}
 .main {
     height: auto !important;
     min-height: 100%;
@@ -178,6 +181,10 @@ iframe
 	margin-left: 5px;
 	margin-right: 20px;
 }
+.craft_menu_mobile
+{
+	display: none;
+}
 .social
    {
    	color: black;
@@ -199,4 +206,19 @@ ul.list-inline_social>li{
 {
 		position: absolute;
 			right: 50px;
+}
+@media screen and (max-width: 960px){
+.craft_menu
+{
+	display: none;	
+}
+.craft_menu_mobile
+{
+	width: 99%;
+	border-spacing: 0 1px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 20px;
+}
 }
