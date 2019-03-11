@@ -40,7 +40,13 @@ body
    	color: white;
    }
    .nav-main>.menu-main>ul>li>a
-   {		         
+   {	
+   		font-size: 40px;	         
+   		text-decoration: none;
+   	 	color: white;   	 	
+   }   
+    .nav-main>.menu-main-mobile>ul>li>a
+   {	     
    		text-decoration: none;
    	 	color: white;
    	 	
@@ -59,14 +65,14 @@ body
  
  }
 
-
+.menu-main-mobile {
+display: none;
+}
 .menu-main {
     vertical-align: middle;
 width:100%;
 display: inline-block;
 background-color: #fd0000;
-
-
 }
 
 
@@ -129,7 +135,8 @@ th {
 }
 td {
   padding: 10px;
- text-align: left;
+  text-align: center;
+ 
 }
 tr:nth-child(odd) {
   background: white;
@@ -207,7 +214,7 @@ ul.list-inline_social>li{
 		position: absolute;
 			right: 50px;
 }
-@media screen and (max-width: 960px){
+@media screen and (max-width: 480px){
 .craft_menu
 {
 	display: none;	
@@ -222,4 +229,17 @@ ul.list-inline_social>li{
 	margin-left: 5px;
 	margin-right: 20px;
 }
+.menu-main {
+display: none;	
+}
+.menu-main-mobile {
+display: block;
+vertical-align: middle;
+width:100%;
+display: inline-block;
+background-color: #fd0000;
+}
+
+
+
 }
