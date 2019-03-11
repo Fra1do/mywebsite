@@ -88,15 +88,17 @@ letter-spacing: 1px;
 }
 .description
 {
-	min-height: 50vh; background-image: url('img/beer2.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll;                   
+	display: block;
+	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px;                  
 	
 }
-p.description
-{
-	font-size: 16;
-	                   
+.description_mobile
+{	
+	display: none;	
+	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 15px;                  
 	
 }
+
 .description_text
 {
 	margin-top: 80px;
@@ -239,7 +241,18 @@ width:100%;
 display: inline-block;
 background-color: #fd0000;
 }
-
+.description
+{
+	display: none;
+	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px;                  
+	
+}
+.description_mobile
+{	
+	display: block;	
+	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 20px;                  
+	
+}
 
 
 }
