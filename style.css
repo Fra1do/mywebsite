@@ -62,8 +62,7 @@ body
  	width:100%;
  	height: 60px;
  	background-color:#eb3230;
- 	padding-top: 20px;
- 
+ 	padding-top: 20px; 
  }
 
 .menu-main-mobile {
@@ -238,20 +237,39 @@ height:50px; line-height:50px;
 }
 footer{
 width:100%;
-margin-top: 100px;
+margin-top: 10px;
 }
 .row
 {	
+display: block;
 	width: 100%;
 }
 .col-sm-8_margin-20
 {
+	display: block;
+	width: 100%;
+}
+.row_moblile
+{	
+	display: none
+	width: 100%;
+}
+.col-sm-8_margin-20_mobile
+{
+	display: none;
 	width: 100%;
 }
 .list-inline_social
 {
+		display: block;
 		position: absolute;
-			right: 50px;
+		right: 0px;
+}
+.list-inline_social_mobile
+{
+		display: none;
+		position: absolute;
+		right: 10px;
 }
 @media screen and (max-width: 480px){
 .craft_menu
@@ -287,9 +305,43 @@ background-color:#eb3230;
 {	
 	display: block;	
 	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 16px;                  
-    background-color:#eb3230;
-	
+    background-color:#eb3230;	
 }
-
-
+.list-inline_social
+{
+		display: none;
+		position: absolute;
+		right: 0px;		
+		
+}
+.list-inline_social_mobile
+{
+		display: block;		
+ 		list-style: none; /*убираем маркеры списка*/
+		right: 80px;	
+}
+ul.list-inline_social_mobile li
+{
+	display: inline-block;		
+}
+.row
+{	
+	display: none;
+	width: 100%;	
+}
+.col-sm-8_margin-20
+{
+	display: none;
+	width: 100%;
+}
+.row_moblile
+{	
+	display: block;
+	width: 100%;
+}
+.col-sm-8_margin-20_mobile
+{
+	display: block;
+	width: 100%;
+}
 }
