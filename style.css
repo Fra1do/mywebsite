@@ -2,12 +2,13 @@ body
 {
     margin: 0;
 }
+
 .main {
     height: auto !important;
     min-height: 100%;
     
-    width: 100%;
-    background-color: #fff;
+     width: 100%;
+     background-color:#eb3230;
  
     -webkit-box-shadow: 0 0 6px -3px #000;
     -moz-box-shadow: 0 0 6px -3px #000;
@@ -18,12 +19,12 @@ body
      margin: 0;
      padding: 0;
      width:100%;
-    text-align: center;
+     text-align: center;
    }
    ul.hr li {
         padding: 0;
-       display: inline-block; /* Отображать как строчный элемент */
-    margin-right: 17px; /* Отступ слева */
+        display: inline-block; /* Отображать как строчный элемент */
+        margin-right: 17px; /* Отступ слева */
     
 	
    }
@@ -54,13 +55,13 @@ body
  .foot {
  	margin: 20px 0 0 0;
  	color: white;
-   background-color: #fd0000; 	
+  	background-color:#eb3230;
  }  
 .nav-main
  {
  	width:100%;
  	height: 60px;
- 	background-color: #fd0000;
+ 	background-color:#eb3230;
  	padding-top: 20px;
  
  }
@@ -72,7 +73,7 @@ display: none;
     vertical-align: middle;
 width:100%;
 display: inline-block;
-background-color: #fd0000;
+background-color:#eb3230;
 }
 
 
@@ -81,21 +82,35 @@ font-family: 'Playfair Display';
 font-weight: normal;
 letter-spacing: 1px;
 }
+.our-menu{
+    padding: 2px;
+    color: white;
+    background:#eb3230;
+}
 .h1
 {
 	text-align:center;
-	
+}
+.image-main
+{
+    background-color:#eb3230;
 }
 .description
 {
 	display: block;
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px;                  
+	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px; background-color:#eb3230;                 
+	
+}
+.description_new
+{
+	display: block;
+	min-height: 50vh; background-size: cover; background-position: center center; background-repeat: no-repeat; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px; background-color:#eb3230;                 
 	
 }
 .description_mobile
 {	
 	display: none;	
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 15px;                  
+	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 15px; background-color:#eb3230;            
 	
 }
 
@@ -106,11 +121,15 @@ letter-spacing: 1px;
 	float: left; 
 }
 
+.global{
+      background-color:#eb3230;
+}
 
-.menu
+.all-menu
 {
 	width:100%;	 
-   margin-top: 1%; 
+    /*margin-top: 1%; */
+    background-color:#eb3230;
     
 }
 
@@ -124,7 +143,7 @@ letter-spacing: 1px;
 caption {
   padding: 10px;
   color: white;
-  background: red;
+  background: #eb3230;
   font-size: 18px;
   text-align: center;
   font-weight: bold;
@@ -202,9 +221,27 @@ ul.list-inline_social>li{
 	 padding: 0;
   display: inline; /* Отображать как строчный элемент */
 }
+.contacts-info{
+ width: 100%;
+margin-bottom: 50px;
+}
+.contacts-info-left {
+float:left;
+width:50%;
+text-align:center
+}
+.contacts-info-right {
+float:right;
+width:50%;
+text-align:center;
+height:50px; line-height:50px;
+}
+footer{
+width:100%;
+margin-top: 100px;
+}
 .row
-{
-	
+{	
 	width: 100%;
 }
 .col-sm-8_margin-20
@@ -238,19 +275,19 @@ display: none;
 display: block;
 vertical-align: middle;
 width:100%;
-display: inline-block;
-background-color: #fd0000;
+background-color:#eb3230;
 }
 .description
 {
 	display: none;
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px;                  
+	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px;    background-color:#eb3230;                  
 	
 }
 .description_mobile
 {	
 	display: block;	
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 20px;                  
+	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 16px;                  
+    background-color:#eb3230;
 	
 }
 
