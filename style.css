@@ -91,9 +91,33 @@ letter-spacing: 1px;
 {
 	text-align:center;
 }
+.event-title
+{
+	text-align:center;
+	color: white;
+}
 .image-main
 {
     background-color:#eb3230;
+}
+.ev1
+{
+	display:block;
+	margin:auto;
+}
+.events
+{
+		display: block;	
+}
+.event-description>p
+{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.events_mobile
+{
+	display: none;	
 }
 .description
 {
@@ -344,5 +368,13 @@ ul.list-inline_social_mobile li
 {
 	display: block;
 	width: 100%;
+}
+.events
+{
+		display: none;	
+}
+.events_mobile
+{
+	display: block;	
 }
 }
