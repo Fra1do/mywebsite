@@ -25,6 +25,7 @@ body
         padding: 0;
         display: inline-block; /* Отображать как строчный элемент */
         margin-right: 17px; /* Отступ слева */
+        width:15%;
     
 	
    }
