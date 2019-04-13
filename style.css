@@ -303,7 +303,7 @@ display: block;
 }
 .craft_menu_mobile
 {
-	display: block;
+	display: table;
 	width: 99%;
 	border-spacing: 0 1px;
 	font-family: 'Open Sans', sans-serif;
