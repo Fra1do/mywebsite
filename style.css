@@ -226,12 +226,12 @@ iframe
 }
 .craft_menu
 {
-	width: 99%;
+	width: 100%;
 	border-spacing: 0 1px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	margin-left: 5px;
-	margin-right: 20px;
+	#margin-left: 5px;
+	#margin-right: 20px;
 }
 .craft_menu_mobile
 {
@@ -303,13 +303,13 @@ display: block;
 }
 .craft_menu_mobile
 {
-	display: block;
-	width: 99%;
+	display: table;
+	width: 100%;
 	border-spacing: 0 1px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	margin-left: 5px;
-	margin-right: 20px;
+	margin-left: 0px;
+	margin-right: 5px;
 }
 .menu-main {
 display: none;	
