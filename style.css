@@ -26,8 +26,6 @@ body
         display: inline-block; /* Отображать как строчный элемент */
         margin-right: 17px; /* Отступ слева */
         width:15%;
-    
-	
    }
    a:active
    {
@@ -296,6 +294,11 @@ display: block;
 		position: absolute;
 		right: 10px;
 }
+.news
+{
+	font-size: 25px;
+	font-weight: bolder;
+}
 @media screen and (max-width: 480px){
 .craft_menu
 {
@@ -377,4 +380,5 @@ ul.list-inline_social_mobile li
 {
 	display: block;	
 }
+
 }
