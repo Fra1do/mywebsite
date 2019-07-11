@@ -105,7 +105,7 @@ letter-spacing: 1px;
 }
 .events
 {
-		display: none;
+		display: block;
 }
 .event-description>p
 {
@@ -119,25 +119,26 @@ letter-spacing: 1px;
 }
 .description
 {
-	display: block;
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px; background-color:#eb3230;                 
+	display: none;
+	/*min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px; background-color:#eb3230;*/
 	
 }
 .description_new
 {
-	display: block;
-	min-height: 50vh; background-size: cover; background-position: center center; background-repeat: no-repeat; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px; background-color:#eb3230;                 
+	display: none;
+	/*min-height: 50vh; background-size: cover; background-position: center center; background-repeat: no-repeat; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px; background-color:#eb3230;*/
 	
 }
 .description_mobile
 {	
 	display: none;	
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 15px; background-color:#eb3230;            
+	/*min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 15px; background-color:#eb3230;*/
 	
 }
 
 .description_text
 {
+	display: none;
 	margin-top: 80px;
 	width:100%;  
 	float: left; 
@@ -323,18 +324,7 @@ vertical-align: middle;
 width:100%;
 background-color:#eb3230;
 }
-.description
-{
-	display: none;
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px;    background-color:#eb3230;                  
-	
-}
-.description_mobile
-{	
-	display: block;	
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 16px;                  
-    background-color:#eb3230;	
-}
+
 .list-inline_social
 {
 		display: none;
@@ -378,7 +368,7 @@ ul.list-inline_social_mobile li
 }
 .events_mobile
 {
-	display: none;
+	display: block;
 }
 
 }
