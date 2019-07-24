@@ -105,7 +105,7 @@ letter-spacing: 1px;
 }
 .events
 {
-		display: block;
+		display: none;
 }
 .event-description>p
 {
@@ -368,7 +368,7 @@ ul.list-inline_social_mobile li
 }
 .events_mobile
 {
-	display: block;
+	display: none;
 }
 
 }
