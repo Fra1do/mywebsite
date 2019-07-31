@@ -299,7 +299,16 @@ display: block;
 {
 	font-size: 25px;
 	font-weight: bolder;
+	display: none;
 }
+.recommend
+{
+	margin-top: 25px;
+	margin-left: 90%;
+	margin-right: 0;
+}
+
+
 @media screen and (max-width: 480px){
 .craft_menu
 {
@@ -370,5 +379,10 @@ ul.list-inline_social_mobile li
 {
 	display: none;
 }
-
+.recommend
+{
+	margin-top: 25px;
+	margin-left: 30%;
+	margin-right: 0;
+}
 }
