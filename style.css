@@ -308,6 +308,31 @@ display: block;
 	margin-right: 0;
 }
 
+.photos
+{
+    margin-top: 50px;
+}
+
+.arror_left
+{
+    margin-left: 125px;
+    margin-top: 425px;
+    position: absolute;
+}
+
+.images
+{
+	margin-left: 275px;
+}
+
+.arror_right
+{
+    margin-left: 1650px;
+    margin-top: -460px;
+    position: absolute;
+}
+
+
 
 @media screen and (max-width: 480px){
 .craft_menu

@@ -30,12 +30,13 @@
 	<meta name="description" content="Сайт пивного бара &quot;Beer&Beard&quot;">
 	<meta name="keywords" content="бар, пиво, крафтовый бар, крафтовое пиво, бар на Тушинской" />
 	<meta name="robots" content="index"/>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="style.css?v=1.19" />
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<script src = "gal.js"></script>
 </head>
-<body>
+<body onLoad = "Load()">
 <div class="image-main">
 	<img src="img/bar.jpg"  width="100%" height="50%" alt="картинка">
 	</div>
@@ -97,7 +98,13 @@
 			</div>	
 	  </div>		
 </div>
-
+	<div class="photos">
+	<div class="arror_left"><img src = "img/arrow_left.png"  onClick = "javascript: left_arrow()" /></div>
+		<div class="images">
+			<img src = "img/1.jpg" width = "1280" height = "900"  id = "img" > </img> <br />
+		</div>
+		<div class="arror_right"><img src = "img/arrow_right.png"  onClick = "javascript: right_arrow()" /></div>
+	</div>
 	<div class="all-menu">
 		<a name="menu"></a><h1 class="our-menu" align="center">Наше меню</h1>
 		<img src="img/menu1.png"  width="100%" height="100%" alt="картинка">
