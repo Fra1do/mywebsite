@@ -26,8 +26,6 @@ body
         display: inline-block; /* Отображать как строчный элемент */
         margin-right: 17px; /* Отступ слева */
         width:15%;
-    
-	
    }
    a:active
    {
@@ -107,7 +105,7 @@ letter-spacing: 1px;
 }
 .events
 {
-		display: block;	
+		display: none;
 }
 .event-description>p
 {
@@ -121,25 +119,26 @@ letter-spacing: 1px;
 }
 .description
 {
-	display: block;
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px; background-color:#eb3230;                 
+	display: none;
+	/*min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px; background-color:#eb3230;*/
 	
 }
 .description_new
 {
-	display: block;
-	min-height: 50vh; background-size: cover; background-position: center center; background-repeat: no-repeat; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px; background-color:#eb3230;                 
+	display: none;
+	/*min-height: 50vh; background-size: cover; background-position: center center; background-repeat: no-repeat; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px; background-color:#eb3230;*/
 	
 }
 .description_mobile
 {	
 	display: none;	
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 15px; background-color:#eb3230;            
+	/*min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 15px; background-color:#eb3230;*/
 	
 }
 
 .description_text
 {
+	display: none;
 	margin-top: 80px;
 	width:100%;  
 	float: left; 
@@ -226,12 +225,12 @@ iframe
 }
 .craft_menu
 {
-	width: 99%;
+	width: 100%;
 	border-spacing: 0 1px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	margin-left: 5px;
-	margin-right: 20px;
+	#margin-left: 5px;
+	#margin-right: 20px;
 }
 .craft_menu_mobile
 {
@@ -276,7 +275,7 @@ display: block;
 }
 .row_moblile
 {	
-	display: none
+	display: none;
 	width: 100%;
 }
 .col-sm-8_margin-20_mobile
@@ -296,6 +295,45 @@ display: block;
 		position: absolute;
 		right: 10px;
 }
+.news
+{
+	font-size: 25px;
+	font-weight: bolder;
+	display: none;
+}
+.recommend
+{
+	margin-top: 25px;
+	margin-left: 90%;
+	margin-right: 0;
+}
+
+.photos
+{
+    margin-top: 50px;
+}
+
+.arror_left
+{
+    margin-left: 125px;
+    margin-top: 425px;
+    position: absolute;
+}
+
+.images
+{
+	margin-left: 275px;
+}
+
+.arror_right
+{
+    margin-left: 1650px;
+    margin-top: -460px;
+    position: absolute;
+}
+
+
+
 @media screen and (max-width: 480px){
 .craft_menu
 {
@@ -305,11 +343,12 @@ display: block;
 {
 	display: table;
 	width: 99%;
+
 	border-spacing: 0 1px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	margin-left: 5px;
-	margin-right: 20px;
+	margin-left: 0px;
+	margin-right: 5px;
 }
 .menu-main {
 display: none;	
@@ -320,18 +359,7 @@ vertical-align: middle;
 width:100%;
 background-color:#eb3230;
 }
-.description
-{
-	display: none;
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 25px;    background-color:#eb3230;                  
-	
-}
-.description_mobile
-{	
-	display: block;	
-	min-height: 50vh; background-image: url('img/place.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;padding: 100px; text-align: center; color: white; text-decoration: none;background-attachment: scroll; font-size: 16px;                  
-    background-color:#eb3230;	
-}
+
 .list-inline_social
 {
 		display: none;
@@ -375,6 +403,12 @@ ul.list-inline_social_mobile li
 }
 .events_mobile
 {
-	display: block;	
+	display: none;
+}
+.recommend
+{
+	margin-top: 25px;
+	margin-left: 30%;
+	margin-right: 0;
 }
 }
