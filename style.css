@@ -342,7 +342,8 @@ display: block;
 .craft_menu_mobile
 {
 	display: table;
-	width: 100%;
+	width: 99%;
+
 	border-spacing: 0 1px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
